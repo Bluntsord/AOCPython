@@ -1,10 +1,8 @@
 import functools
 import io
+import Reader
 
-# Processing line by line
-f = io.open("Data.txt", "r")
-data = f.readlines()
-
+data = Reader.read()
 count = 0
 
 two_Line_Previous = 0
