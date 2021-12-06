@@ -1,7 +1,7 @@
 import io
 
-def read():
+def read(filename):
     # Processing line by line
-    f = io.open("Data.txt", "r")
+    f = io.open(filename, "r")
     data = f.readlines()
     return data
