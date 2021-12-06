@@ -1,0 +1,2 @@
+O(n) time for both
+O(1) space which is just the space for the other variables used to store the lines of the previous data
